@@ -119,6 +119,12 @@ make test
 
 [opencv demo](http://www.shervinemami.info/faceRecognition.html)
 
+[setup IP camera](http://robocv.blogspot.com/2012/01/using-your-ip-camera-with-opencv.html)
+
+[POE IP cam](http://stackoverflow.com/questions/21324785/ip-camera-access-using-opencv)
+
+[IP Cam LED](http://answers.opencv.org/question/3664/ip-network-camera-access/)
+
 [classifiers - face detect](http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html)
 
 [openCL gpu devices support](http://streamcomputing.eu/blog/2011-12-29/opencl-hardware-support/)
