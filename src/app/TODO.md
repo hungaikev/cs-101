@@ -17,3 +17,6 @@
 -> C/C++ Clients
 - RethinkDB
 - PostgreSQL
+
+
+scons! - cmake -> project builds - make
