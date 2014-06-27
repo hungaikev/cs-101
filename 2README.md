@@ -1,3 +1,5 @@
+Facial detection and recognition with openCV - poject description (top part)
+
 Recognise
 =========
 
