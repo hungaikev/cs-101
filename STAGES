@@ -9,5 +9,32 @@ Haar cascade classifiers
 
 
 cv::FisherFaceRecognizer model;
-int prediction = model->predict(face_resized)
+int prediction = model->predict(face_resized);
 resizing in LBPH - no
+
+#include - header files + CSV files
+training
+recognizer - algorithm -> LBPH? ribust
+
+DB rethinkDB - postgres
+recognise
+
+model->train(images, labels);
+grayscale conversion
+faces[]
+
+vector<MAT> faces;
+
+
+classifiers CSV
+--------------------------
+frontal-face
+frontal-face glasses
+side-faces
+
+
+train
+detect ------
+			|
+recognise	^
+
