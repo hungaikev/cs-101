@@ -1,0 +1,13 @@
+Robust Facial Recognition
+--------------------------
+
+LBPH - local binary pattern histogram
+fishrfaces
+eigenfaces - eigenvalues
+confidensce value - stored in DB
+Haar cascade classifiers
+
+
+cv::FisherFaceRecognizer model;
+int prediction = model->predict(face_resized)
+resizing in LBPH - no
