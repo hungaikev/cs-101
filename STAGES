@@ -38,3 +38,5 @@ detect ------
 			|
 recognise	^
 
+concurrency - DB - GPU accleration?
+cv classes - algorithms, resizing images + grayscale + recognizer algorithms
