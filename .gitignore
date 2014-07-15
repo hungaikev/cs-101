@@ -1,6 +1,8 @@
 # Compiled Object files
 *.slo
 *.lo
+*.log
+*.pyc
 *.o
 /bin
 /_site
