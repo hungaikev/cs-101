@@ -28,6 +28,7 @@
 
 
 // g++ OnlineFaceRec.cpp `pkg-config --cflags --libs-only-l opencv`
+// g++ face-rec.cpp `pkg-config --cflags --libs opencv`
 
 #include <stdio.h>
 #if defined WIN32 || defined _WIN32
