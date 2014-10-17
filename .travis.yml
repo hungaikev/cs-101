@@ -2,8 +2,6 @@ language: cpp
 
 before_install:
   - echo "START"
-  - chmod +x get-cl.sh
-  - ./get-cl.sh
 
 before_script:
   - chmod +x runner.sh
@@ -26,8 +24,7 @@ branches:
 # whitelist
 branches:
   only:
-    - master
-    - stable
+    - development
 
 notifications:
   email:
