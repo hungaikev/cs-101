@@ -4,7 +4,7 @@ before_install:
   - echo "START"
 
 before_script:
-  - chmod +x runner.sh
+  - echo "TEST"
 
 install: make get-deps
 
@@ -12,7 +12,8 @@ compiler:
   - clang++
   - g++
 
-script: "./runner.sh"
+script:
+  - echo "DONE"
 
 
 # blacklist
