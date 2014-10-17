@@ -1,7 +1,7 @@
 Recognise
 =========
 
-[![BuildStatus](https://magnum.travis-ci.com/ianjuma/recognise.svg?token=zqBFWpjtmJLRpRDbTde2&branch=master)](https://magnum.travis-ci.com/ianjuma/recognise)
+[![Build Status](https://magnum.travis-ci.com/ianjuma/recognise.svg?token=zqBFWpjtmJLRpRDbTde2&branch=master)](https://magnum.travis-ci.com/ianjuma/recognise)
 
 Facial detection and recognition using OpenCV and libfacerec
 
