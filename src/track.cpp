@@ -11,7 +11,7 @@ int lastY = -1;
 
 //This function threshold the HSV image and create a binary image
 IplImage* GetThresholdedImage(IplImage* imgHSV) {
-    IplImage* imgThresh=cvCreateImage(cvGetSize(imgHSV),IPL_DEPTH_8U, 1);
+    IplImage* imgThresh = cvCreateImage(cvGetSize(imgHSV),IPL_DEPTH_8U, 1);
     cvInRangeS(imgHSV, cvScalar(170,160,60), cvScalar(180,2556,256), imgThresh);
     return imgThresh;
 }
@@ -44,19 +44,19 @@ void trackObject(IplImage* imgThresh) {
 
 
 int main() {
-    CvCapture* capture =0;
+    CvCapture* capture = 0;
     capture = cvCaptureFromCAM(0);
     if(!capture) {
        printf("Capture failure\n");
        return -1;
     }
     
-    IplImage* frame=0;
+    IplImage* frame = 0;
     frame = cvQueryFrame(capture);
     if(!frame) return -1;
    
    //create a blank image and assigned to 'imgTracking' which has the same size of original video
-   imgTracking=cvCreateImage(cvGetSize(frame),IPL_DEPTH_8U, 3);
+   imgTracking = cvCreateImage(cvGetSize(frame),IPL_DEPTH_8U, 3);
    cvZero(imgTracking); //covert the image, 'imgTracking' to black
 
    cvNamedWindow("Video");
@@ -66,7 +66,7 @@ int main() {
    while(true) {
       frame = cvQueryFrame(capture);
       if(!frame) break;
-      frame=cvCloneImage(frame);
+      frame = cvCloneImage(frame);
 
       cvSmooth(frame, frame, CV_GAUSSIAN,3,3); //smooth the original image using Gaussian kernel
 
