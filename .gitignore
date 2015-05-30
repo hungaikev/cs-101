@@ -11,6 +11,8 @@
 *.so
 *.dylib
 
+.idea
+
 # Compiled Static libraries
 *.lai
 *.la
