@@ -1,8 +1,9 @@
 #include <iostream>
+#include "src/camera_.cpp"
 
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+    startService();
     return 0;
 }
