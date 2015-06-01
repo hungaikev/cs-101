@@ -12,6 +12,7 @@
 *.dylib
 
 .idea
+assets/images
 
 # Compiled Static libraries
 *.lai
