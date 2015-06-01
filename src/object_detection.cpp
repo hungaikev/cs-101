@@ -5,13 +5,11 @@
 #include <iostream>
 #include <stdio.h>
 
-
 //g++ FaceRec.cpp `pkg-config --cflags --libs opencv`
 
 using namespace std;
 using namespace cv;
 
-/** Function Headers */
 void detectAndDisplay( Mat frame );
 
 /** Global variables */

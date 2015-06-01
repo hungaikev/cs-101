@@ -6,6 +6,8 @@
 using namespace cv;
 using namespace std;
 
+void startService() {}
+
 int main(int argc, char* argv[]) {
     VideoCapture cap(0);
 
