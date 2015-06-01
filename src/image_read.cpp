@@ -8,18 +8,18 @@ using namespace std;
 
 
 int main(int argc, const char** argv) {
-     Mat img = imread("../classifiers/demo.jpg", CV_LOAD_IMAGE_UNCHANGED);
+    Mat img = imread("../classifiers/demo.jpg", CV_LOAD_IMAGE_UNCHANGED);
 
-     if (img.empty()) {
-          cout << "Error : Image cannot be loaded..!!" << endl;
-          return -1;
-     }
+    if (img.empty()) {
+        cout << "Error : Image cannot be loaded..!!" << endl;
+        return -1;
+    }
 
-     namedWindow("App", CV_WINDOW_AUTOSIZE);
-     imshow("App", img);
+    namedWindow("App", CV_WINDOW_AUTOSIZE);
+    imshow("App", img);
 
-     waitKey(0);
+    waitKey(0);
 
-     destroyWindow("App");
-     return 0;
+    destroyWindow("App");
+    return 0;
 }
